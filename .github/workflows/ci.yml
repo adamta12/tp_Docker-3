@@ -22,7 +22,7 @@ jobs:
       - name: Run tests
         run: PYTHONPATH=. pytest
 
-  build:
+  build: 
     needs: test
     runs-on: ubuntu-latest
     steps:
