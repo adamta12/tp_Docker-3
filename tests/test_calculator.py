@@ -1,4 +1,4 @@
-from app import addition, multiplication
+from app.calculator import addition, multiplication
 
 def test_addition():
     assert addition(2, 3) == 5
